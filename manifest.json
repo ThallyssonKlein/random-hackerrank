@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Screenshot",
+    "Description": "Screenshot the browser page when the user clicks the icon",
+    "version": "0.1",
+    "icons": {"128": "./images/icon.png"},
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["./dist/js/bundle.js"]
+    }],
+    "background": {
+        "scripts": ["./src/background.js"]
+    },
+    "browser_action": {
+        "default_icon": "./images/icon.png"
+    },
+    "permissions": ["activeTab", "tabs"] 
+}

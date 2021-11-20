@@ -1,0 +1,38 @@
+{
+  "name": "Facial_Detection_Extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steven-Chang1114/Facial_Detection_Extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Steven-Chang1114/Facial_Detection_Extension/issues"
+  },
+  "homepage": "https://github.com/Steven-Chang1114/Facial_Detection_Extension#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap-fileinput": "^5.0.8",
+    "dropzone": "^5.7.0",
+    "html2canvas": "^1.0.0-rc.5"
+  }
+}
